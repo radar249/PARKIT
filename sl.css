@@ -1,0 +1,23 @@
+body{
+	background-image: url(parking.jpg);
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.table tbody tr td:not(:first-child) {
+  border: 1px solid blue;
+  width: 1em;
+  height:1em;
+}
+
+.table tbody tr td:first-child {
+  font-weight:bold;
+}
+
+.table tr td:nth-child(5) {
+  border:none!important;
+}
+
+.table {
+  border-spacing: 3em;
+}
